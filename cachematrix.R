@@ -3,7 +3,10 @@
 
 ## Write a short comment describing this function
 
+
 makeCacheMatrix <- function(x = matrix()) {
+  ## makeCacheMatrix: This function creates a special “matrix” object that can 
+  ## cache its inverse.
   m <- NULL
   set <- function(y) {
     x <<- y
